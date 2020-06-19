@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Tables</title>
+      <style>
+table{
+    width: 600px;
+    margin: auto; 
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table,tr,th,td {
+    border:1px solid; font-size: 20px;
+    
+   
+    /*border-collapse:collapse;
+    padding: 20px;*/
+
+}
+th{
+    background-color: rgb(178, 212, 143);
+    padding: 15px;
+}
+/*tr{
+    background-color: rgb(224, 190, 240);
+}*/
+tr:nth-child(3n){
+    background-color: lawngreen;
+}
+      </style>
+
+    
+   </head>
+	
+   <body> 
+    <table>       
+<th>State/UT </th>
+<th>Confrmd </th>
+<th>Activ </th>
+<th>Rcvrd </th>
+<th>dcsd </th> 
+      
+   
+
+<tr> 
+    <td>Maharashtra  </td><td>
+	1,10,744</td><td>	50,554	</td><td>	56,049</td><td>		4,128</td>
+</tr>
+
+<tr> 
+    <td> Tamil Nadu</td><td>
+	46,504</td><td>	20,681</td><td>	25,344	</td><td>479</td>
+</tr>
+          
+<tr> 
+    <td> Delhi</td><td>
+	42,829	</td><td>25,002	</td><td>16,427	</td><td>1,400
+</tr>
+</table> 
+   </body>
+</html>
